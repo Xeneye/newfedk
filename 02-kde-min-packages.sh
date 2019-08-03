@@ -98,8 +98,7 @@ sudo dnf -y install \
   kcalc \
   gwenview \
   spectacle \
-  okular \
-  sleep 1.5
-sudo dnf -y remove qt5-qdbusviewer
+  okular
+sleep 1.5
 sudo dnf -y update
 clear
