@@ -83,7 +83,6 @@ sudo dnf -y install \
   sddm \
   sddm-breeze \
   sddm-kcm \
-  setroubleshoot \
   sni-qt \
   system-config-keyboard \
   system-config-language \
