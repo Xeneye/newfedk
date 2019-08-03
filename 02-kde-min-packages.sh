@@ -93,7 +93,6 @@ sudo dnf -y install \
   plasma-pk-updates \
   kate \
   ark \
-  kcalc \
   gwenview \
   spectacle \
   okular \
