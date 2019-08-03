@@ -101,4 +101,5 @@ sudo dnf -y install \
   okular \
   sleep 1.5
 sudo dnf -y update
+sudo dnf -y remove qt5-qdbusviewer
 clear
