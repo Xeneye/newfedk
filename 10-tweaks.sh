@@ -13,6 +13,7 @@
 sudo systemctl enable sddm
 sudo systemctl set-default graphical.target
 sudo dnf -y remove qt5-qdbusviewer
+echo "blacklist snd_hda_intel" | sudo tee -a /etc/modprobe.d/blacklist.conf
 echo "All done, rebooting now..."
 sleep 1.5
 sudo reboot
