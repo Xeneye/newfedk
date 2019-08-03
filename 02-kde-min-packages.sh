@@ -98,7 +98,8 @@ sudo dnf -y install \
   kcalc \
   gwenview \
   spectacle \
-  okular
+  okular \
+  yakuake
 sleep 1.5
 sudo dnf -y update
 clear
