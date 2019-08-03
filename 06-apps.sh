@@ -12,7 +12,7 @@
 #                                           \______/                               
 #Install Favourite Apps
 echo "Installing Favourite Apps"
-sudo dnf -y install google-chrome-stable firefox telegram-desktop discord thunderbird gimp gimp-help-en_GB obs-studio audacity autokey-gtk ckb-next filezilla fish nano cmatrix neofetch blender vim
+sudo dnf -y install google-chrome-stable firefox telegram-desktop discord thunderbird gimp gimp-help-en_GB obs-studio audacity autokey-gtk ckb-next filezilla nano cmatrix neofetch blender vim vlc kdenlive frei0r-plugins krita
 sleep 1.5
 sudo dnf -y update
 clear
