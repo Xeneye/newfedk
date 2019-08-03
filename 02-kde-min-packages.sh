@@ -100,6 +100,6 @@ sudo dnf -y install \
   spectacle \
   okular \
   sleep 1.5
-sudo dnf -y update
 sudo dnf -y remove qt5-qdbusviewer
+sudo dnf -y update
 clear
