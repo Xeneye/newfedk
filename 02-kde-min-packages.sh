@@ -31,7 +31,6 @@ sudo dnf -y install \
   cups-pk-helper \
   dolphin \
   dolphin-plugins \
-  firewall-config \
   glibc-all-langpacks \
   gnome-keyring-pam \
   kcm_systemd \
@@ -94,7 +93,6 @@ sudo dnf -y install \
   plasma-pk-updates \
   kate \
   ark \
-  kget \
   kcalc \
   gwenview \
   spectacle \
