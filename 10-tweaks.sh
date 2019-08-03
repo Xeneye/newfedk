@@ -10,6 +10,9 @@
 #                                          $$\   $$ |  
 #                                          \$$$$$$  |                              
 #                                           \______/                               
-#Set Fish as default shell
-sudo chsh -s /usr/bin/fish
-clear
+sudo systemctl enable sddm
+sudo systemctl set-default graphical.target
+sudo dnf -y remove qt5-qdbusviewer
+echo "All done, rebooting now..."
+sleep 1.5
+sudo reboot
